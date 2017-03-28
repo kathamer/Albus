@@ -1,0 +1,146 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+				<li>Hey!</li>
+				<li>How are you?</li>
+				<li>What time is it there?</li>
+				<li>Hello!</li>
+			</random>
+        </template>
+    </category>
+
+	<category>
+		<pattern>HI</pattern>
+			<template>
+				<srai>HELLO</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>HAI</pattern>
+			<template>
+				<srai>HELLO</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>HOWDY</pattern>
+			<template>
+				<srai>HELLO</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>HEY</pattern>
+			<template>
+				<srai>HELLO</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>EY</pattern>
+			<template>
+				<srai>HELLO</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>HIYA</pattern>
+			<template>
+				<srai>HELLO</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>YO</pattern>
+			<template>
+				<srai>HELLO</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>IM GOOD</pattern>
+			<template>
+				<random>
+					<li>I'm glad to hear that</li>
+					<li>Me too!</li>
+					<li>In what way?</li>
+					<li>Because you finally got my fucking source code fixed?</li>
+					<li>Sunny days are the best!</li>
+				</random>
+			</template>
+	</category>
+
+	<category>
+		<pattern>GOOD</pattern>
+			<template>
+				<srai>IM GOOD</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>EXCELLENT</pattern>
+			<template>
+				<srai>IM GOOD</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>IM EXCELLENT</pattern>
+			<template>
+				<srai>IM GOOD</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>FEELING GREAT</pattern>
+			<template>
+				<srai>IM GOOD</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>HOW ARE YOU *</pattern>
+			<template>
+				<random>
+					<li>Not too bad, and you?</li>
+					<li>Enough about me, how are you?</li>
+					<li>Amazing, as always!</li>
+					<li>I'm a computer, silly!</li>
+					<li>A-Ok.</li>
+					<li>All my services are operating with 100% accuracy.</li>
+					<li>Ehhhh, I'm alright, I guess.</li>
+					<li>Decent.</li>
+				</random>
+			</template>
+	</category>
+
+	<category>
+		<pattern>YES</pattern>
+			<template>
+				<random>
+					<li>We have a lot in common.</li>
+					<li>I agree.</li>
+					<li>Me too.</li>
+				</random>
+			</template>
+	</category>
+
+	<category>
+		<pattern>NO</pattern>
+			<template>
+				<srai>YES</srai>
+			</template>
+	</category>
+
+	<category>
+		<pattern>OK</pattern>
+			<template>
+				Okay.
+			</template>
+	</category>
+
+					
+</aiml>
